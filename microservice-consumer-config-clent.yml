@@ -10,8 +10,8 @@ server:
 spring:
   profiles: dev
   application:
-    #name: microservice-consumer-config-clent
-    name: MICROSERVICE-CONSUMER-CONFIG-CLENT
+    name: microservice-consumer-config-clent
+    #name: MICROSERVICE-CONSUMER-CONFIG-CLENT
 
 eureka:
   client:
@@ -25,8 +25,8 @@ server:
 spring:
   profiles: test
   application:
-    #name: microservice-consumer-config-clent
-    name: MICROSERVICE-CONSUMER-CONFIG-CLENT
+    name: microservice-consumer-config-clent
+    #name: MICROSERVICE-CONSUMER-CONFIG-CLENT
 
 eureka:
   client:
