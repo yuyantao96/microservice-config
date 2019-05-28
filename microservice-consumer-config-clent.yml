@@ -7,6 +7,11 @@ spring:
 server: 
   port: 7003
 
+spring:
+  profiles: dev
+  application:
+    name: microservice-consumer-config-clent
+
 eureka:
   client:
     register-with-eureka: false
